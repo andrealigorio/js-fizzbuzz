@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+}
+ul {
+    list-style: decimal;
+}
+li:nth-of-type(3n+0) {
+    color: red;
+    font-weight: bold;
+}
+li:nth-of-type(5n+0) {
+    color: green;
+    font-weight: bold;
+}
+li:nth-of-type(15n+0) {
+    color: blue;
+    font-weight: bold;
+}

@@ -1,8 +1,9 @@
-/* Inizializzo un nuovo array dove aggiungo tramite push 
+/* Inizializzo un nuovo array al quale aggiungo tramite push 
 numeri e stringhe speciali */
 
 var listNumber = new Array();
 var special;
+
 for (var i = 1; i <= 100; i++) {
     if (i % 15 == 0){
         special = "FizzBuzz";
@@ -21,5 +22,6 @@ for (var i = 1; i <= 100; i++) {
 /* Tramite ciclo for stampo su console il nuovo array creato */
 
 for (var i = 0; i < listNumber.length; i++) {
+    document.getElementById("print").innerHTML += "<li>" + listNumber[i] + "</li>";
     console.log(listNumber[i]);
 }
